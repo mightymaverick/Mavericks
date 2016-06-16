@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MavericksEntity", "MavericksEntity", "{525A931D-BBA6-4892-BB3D-472A41D104A6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataEntity", "DataEntity", "{525A931D-BBA6-4892-BB3D-472A41D104A6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MavericksEntity", "MavericksEntity\MavericksEntity.csproj", "{6034F85A-A29F-4FDD-BC7D-57EC2624708D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{3E785BBE-981D-4AA4-AD28-72189E8EB9A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MightyMaverick.web", "MightyMaverick.web\MightyMaverick.web.csproj", "{5450923C-77FF-4B24-AD28-F04EC1B4ABF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,11 +21,16 @@ Global
 		{6034F85A-A29F-4FDD-BC7D-57EC2624708D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6034F85A-A29F-4FDD-BC7D-57EC2624708D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6034F85A-A29F-4FDD-BC7D-57EC2624708D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5450923C-77FF-4B24-AD28-F04EC1B4ABF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5450923C-77FF-4B24-AD28-F04EC1B4ABF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5450923C-77FF-4B24-AD28-F04EC1B4ABF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5450923C-77FF-4B24-AD28-F04EC1B4ABF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6034F85A-A29F-4FDD-BC7D-57EC2624708D} = {525A931D-BBA6-4892-BB3D-472A41D104A6}
+		{5450923C-77FF-4B24-AD28-F04EC1B4ABF5} = {3E785BBE-981D-4AA4-AD28-72189E8EB9A2}
 	EndGlobalSection
 EndGlobal
