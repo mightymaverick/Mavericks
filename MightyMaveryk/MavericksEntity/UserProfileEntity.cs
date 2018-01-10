@@ -28,7 +28,7 @@ namespace Aazhi.MightyMaverick.MavericksEntity
 
         public DateTime ProfileCreatedDate { get; set; }
 
-        public string ProfileModifiedBy { get; set; }
+        public Nullable<int> ProfileModifiedBy { get; set; }
 
         public Nullable<DateTime> ProfileModifiedDate { get; set; }
     }

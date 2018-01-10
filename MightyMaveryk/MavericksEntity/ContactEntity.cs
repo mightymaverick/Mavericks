@@ -19,5 +19,9 @@ namespace Aazhi.MightyMaverick.MavericksEntity
         public bool NotifyMe { get; set; }
 
         public DateTime ContactDate { get; set; }
+
+        public bool IsReplied { get; set; }
+
+        public Nullable<DateTime> RepliedDate { get; set; }
     }
 }

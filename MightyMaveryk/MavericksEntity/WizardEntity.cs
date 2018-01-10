@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace Aazhi.MightyMaverick.MavericksEntity
 {
+
+    /// <summary>
+    /// The class is created to refer the master data that will be used in the Mavericks
+    /// </summary>
     public class WizardEntity
     {
         public Nullable<int> WizardId { get; set; }

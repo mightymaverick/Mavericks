@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Aazhi.MightyMaverick.MavericksEntity
 {
+    /// <summary>
+    /// The class contains the sub-master (metadata) of the application.
+    /// </summary>
     public class ApprenticeEntity
     {
         public Nullable<int> ApprenticeId { get; set; }
@@ -24,11 +27,11 @@ namespace Aazhi.MightyMaverick.MavericksEntity
 
         public int MasterDetailStatus { get; set; }
 
-        public string MasterDetailCreatedBy { get; set; }
+        public int MasterDetailCreatedBy { get; set; }
 
         public DateTime MasterDetailCreatedDate { get; set; }
 
-        public string MasterDetailModifiedBy { get; set; }
+        public Nullable<int> MasterDetailModifiedBy { get; set; }
 
         public Nullable<DateTime> MasterDetailModifiedDate { get; set; }
     }

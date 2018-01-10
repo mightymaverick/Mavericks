@@ -10,7 +10,7 @@ namespace Aazhi.MightyMaverick.MavericksEntity
     {
         public Nullable<int> MediaId { get; set; }
 
-        public Nullable<int> UserId { get; set; }
+        public Nullable<int> PersonalityId { get; set; }
 
         public Nullable<int> EventId { get; set; }
 
@@ -49,11 +49,11 @@ namespace Aazhi.MightyMaverick.MavericksEntity
 
         public int MediaStatus { get; set; }
 
-        public string MediaCreatedBy { get; set; }
+        public int MediaCreatedBy { get; set; }
 
         public DateTime MediaCreatedDate { get; set; }
 
-        public string MediaMidifiedBy { get; set; }
+        public Nullable<int> MediaMidifiedBy { get; set; }
 
         public Nullable<DateTime> MediaModifiedDate { get; set; }
     }

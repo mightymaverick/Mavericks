@@ -13,19 +13,21 @@ namespace Aazhi.MightyMaverick.MavericksEntity
         public string TagName { get; set; }
 
         /// <summary>
-        /// Media or Article
+        /// Blog or Forum or Media
         /// </summary>
         public int TagType { get; set; }
 
-        public Nullable<int> TagArticleId { get; set; }
+        public Nullable<int> TagForumId { get; set; }
 
         public Nullable<int> TagMediaId { get; set; }
 
-        public string TagCreatedBy { get; set; }
+        public Nullable<int> TagBlogId { get; set; }
+
+        public int TagCreatedBy { get; set; }
 
         public DateTime TagCreatedDate { get; set; }
 
-        public string TagModifiedBy { get; set; }
+        public Nullable<int> TagModifiedBy { get; set; }
 
         public Nullable<DateTime> TagModifiedDate { get; set; }
     }

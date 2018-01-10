@@ -10,7 +10,7 @@ namespace Aazhi.MightyMaverick.MavericksEntity
     {
         public Nullable<int> EventId { get; set; }
 
-        public Nullable<int> UserId { get; set; }
+        public int EventOwnerId { get; set; }
 
         /// <summary>
         /// Birtyday, Anniversary, Death Anniversary, etc
@@ -33,11 +33,11 @@ namespace Aazhi.MightyMaverick.MavericksEntity
 
         public DateTime ReminderTime { get; set; }
                 
-        public string EventCreatedBy { get; set; }
+        public int EventCreatedBy { get; set; }
 
         public DateTime EventCreatedDate { get; set; }
 
-        public string EventModifiedBy { get; set; }
+        public Nullable<int> EventModifiedBy { get; set; }
 
         public Nullable<DateTime> EventModifiedDate { get; set; }
     }

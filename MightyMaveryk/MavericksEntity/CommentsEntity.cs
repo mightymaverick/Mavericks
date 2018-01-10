@@ -16,19 +16,21 @@ namespace Aazhi.MightyMaverick.MavericksEntity
 
         public Nullable<int> ParentCommentId { get; set; }
 
-        public int ParentId { get; set; }
+        public int PostId { get; set; }
 
-        public string PostedBy { get; set; }
+        public Nullable<int> PostedBy { get; set; }
+
+        public bool MarkCommentRead { get; set; }
 
         public DateTime PostedTime { get; set; }
 
         public int CommentStatus { get; set; }
 
-        public string CreatedBy { get; set; }
+        public int CreatedBy { get; set; }
 
         public DateTime CreatedDate { get; set; }
 
-        public string LastModifiedBy { get; set; }
+        public Nullable<int> LastModifiedBy { get; set; }
 
         public Nullable<DateTime> LastModifiedDate { get; set; }
     }
